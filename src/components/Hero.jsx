@@ -52,14 +52,14 @@ export default function Hero() {
           {/* Social */}
           <div className="mt-10 flex justify-center gap-5 lg:justify-start">
             <a
-              href="#"
+              href="https://github.com/Arshad-Hossain"
               className="rounded-full border border-white/10 bg-white/5 p-4 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:border-[#ff7a59] hover:text-[#ff7a59]"
             >
               <FaGithub size={20} />
             </a>
 
             <a
-              href="#"
+              href="https://linkedin.com/in/mohammad-arshad-hossain"
               className="rounded-full border border-white/10 bg-white/5 p-4 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:border-[#ff7a59] hover:text-[#ff7a59]"
             >
               <FaLinkedinIn size={20} />
