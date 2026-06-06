@@ -11,7 +11,7 @@ export default function About() {
     {
       icon: <BriefcaseBusiness size={20} />,
       title: "Experience",
-      value: "3+ Years Working",
+      value: "1+ Years Working",
     },
     {
       icon: <BadgeCheck size={20} />,
