@@ -1,26 +1,98 @@
 @import "tailwindcss";
+@import "@heroui/styles";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #081828;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Typewriter */
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.typewriter span {
+  display: inline-block;
+  color: white;
+  font-size: 2rem;
+  font-weight: 300;
+  border-right: 3px solid #ff7a59;
+  animation:
+    typing 3s steps(12) infinite,
+    blink 0.8s infinite;
+}
+
+@media (min-width: 768px) {
+  .typewriter span {
+    font-size: 3rem;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  40% {
+    width: 100%;
+  }
+
+  80% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Floating particles */
+
+.particle {
+  animation: float 4s ease-in-out infinite;
+}
+
+.particle-delay {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Scroll indicator */
+
+.scroll-indicator {
+  animation: scrollMove 1.5s linear infinite;
+}
+
+@keyframes scrollMove {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(200%);
+  }
 }
