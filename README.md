@@ -1,36 +1,164 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Personal Portfolio Website
 
-## Getting Started
+A modern and responsive portfolio website built with **Next.js**, **React**, and **Tailwind CSS** to showcase my skills, projects, and experience as a Frontend Developer.
 
-First, run the development server:
+![Portfolio Preview](public/arshad.png)
+
+---
+
+## ✨ Features
+
+- Modern UI Design
+- Fully Responsive Layout
+- Smooth Scrolling Navigation
+- Animated Hero Section
+- About Me Section
+- Technologies / Skills Showcase
+- Contact Section
+- Custom Footer
+- Optimized Next.js Image Handling
+- Fast Performance
+
+---
+
+## 🛠️ Built With
+
+- Next.js
+- React.js
+- Tailwind CSS v4
+- JavaScript (ES6+)
+- React Icons
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── app/
+│   ├── page.js
+│   ├── globals.css
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Technologies.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+│
+public/
+│   └── arshad.png
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+### Navigate to project directory
+
+```bash
+cd portfolio
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📱 Responsive Design
 
-To learn more about Next.js, take a look at the following resources:
+The portfolio is fully responsive and optimized for:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎨 Color Palette
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Color           | Hex     |
+| --------------- | ------- |
+| Dark Background | #081828 |
+| Primary Accent  | #ff7a59 |
+| Text White      | #ffffff |
+| Secondary Text  | #94a3b8 |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📸 Sections
+
+### Hero
+
+Introduction and personal branding.
+
+### About
+
+Brief overview of my background and expertise.
+
+### Technologies
+
+Showcase of technologies and tools I use.
+
+### Contact
+
+Simple way for visitors to get in touch.
+
+### Footer
+
+Clean and modern footer with branding.
+
+---
+
+## 🔧 Future Improvements
+
+- Dark / Light Mode Toggle
+- Project Showcase Section
+- Blog Integration
+- Resume Download
+- Framer Motion Animations
+- CMS Integration
+
+---
+
+## 👨‍💻 Author
+
+**Arshad Hossain**
+
+Frontend Developer
+
+GitHub: https://github.com/Arshad-Hossain
+
+LinkedIn: https://linkedin.com/in/mohammad-arshad-hossain
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+Feel free to use and customize it for your own portfolio.
