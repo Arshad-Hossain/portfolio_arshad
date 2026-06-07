@@ -1,33 +1,36 @@
-# 🚀 Personal Portfolio Website
+# 🚀 Mohammad A Hossain - Portfolio
 
 A modern and responsive portfolio website built with **Next.js**, **React**, and **Tailwind CSS** to showcase my skills, projects, and experience as a Frontend Developer.
 
-![Portfolio Preview](public/arshad.png)
+## 🌐 Live Demo
+
+🔗 https://portfolio-arshad-self.vercel.app/
 
 ---
 
 ## ✨ Features
 
-- Modern UI Design
-- Fully Responsive Layout
-- Smooth Scrolling Navigation
+- Modern & Responsive Design
 - Animated Hero Section
 - About Me Section
-- Technologies / Skills Showcase
-- Contact Section
-- Custom Footer
-- Optimized Next.js Image Handling
-- Fast Performance
+- Technologies Showcase
+- Featured Projects
+- Contact Form
+- Smooth Navigation
+- Mobile Friendly
+- Optimized Performance
+- Vercel Deployment
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
 - Next.js
 - React.js
-- Tailwind CSS v4
 - JavaScript (ES6+)
+- Tailwind CSS v4
 - React Icons
+- Vercel
 
 ---
 
@@ -37,44 +40,48 @@ A modern and responsive portfolio website built with **Next.js**, **React**, and
 src/
 │
 ├── app/
+│   ├── layout.js
 │   ├── page.js
-│   ├── globals.css
+│   └── globals.css
 │
 ├── components/
 │   ├── Navbar.jsx
 │   ├── Hero.jsx
 │   ├── About.jsx
 │   ├── Technologies.jsx
-│   ├── Contact.jsx
+│   ├── Projects.jsx
+│   ├── Contacts.jsx
 │   └── Footer.jsx
 │
 public/
-│   └── arshad.png
+│   ├── arshad.png
+│   ├── Medique.png
+│   └── assets/
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Installation
 
-### Clone the repository
-
-```bash
-git clone https://github.com/yourusername/portfolio.git
-```
-
-### Navigate to project directory
+Clone the repository:
 
 ```bash
-cd portfolio
+git clone https://github.com/Arshad-Hossain/YOUR_REPOSITORY_NAME.git
 ```
 
-### Install dependencies
+Navigate into the project:
+
+```bash
+cd YOUR_REPOSITORY_NAME
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Run development server
+Start the development server:
 
 ```bash
 npm run dev
@@ -90,7 +97,7 @@ http://localhost:3000
 
 ## 📱 Responsive Design
 
-The portfolio is fully responsive and optimized for:
+Optimized for:
 
 - Desktop
 - Laptop
@@ -101,59 +108,75 @@ The portfolio is fully responsive and optimized for:
 
 ## 🎨 Color Palette
 
-| Color           | Hex     |
-| --------------- | ------- |
-| Dark Background | #081828 |
-| Primary Accent  | #ff7a59 |
-| Text White      | #ffffff |
-| Secondary Text  | #94a3b8 |
+| Purpose        | Color   |
+| -------------- | ------- |
+| Background     | #081828 |
+| Accent         | #ff7a59 |
+| Text           | #ffffff |
+| Secondary Text | #94a3b8 |
 
 ---
 
-## 📸 Sections
+## 📌 Sections
 
 ### Hero
 
-Introduction and personal branding.
+Professional introduction with social links and animated elements.
 
 ### About
 
-Brief overview of my background and expertise.
+Overview of my background, skills, and development journey.
 
 ### Technologies
 
 Showcase of technologies and tools I use.
 
+### Projects
+
+Featured projects with GitHub repositories and live demos.
+
 ### Contact
 
-Simple way for visitors to get in touch.
+Easy way for visitors and clients to get in touch.
 
 ### Footer
 
-Clean and modern footer with branding.
+Clean footer with branding and personal touch.
 
 ---
 
-## 🔧 Future Improvements
+## 💼 Featured Project
 
-- Dark / Light Mode Toggle
-- Project Showcase Section
-- Blog Integration
-- Resume Download
-- Framer Motion Animations
-- CMS Integration
+### MediQueue
+
+A modern tutor booking and management platform that allows students to discover tutors, schedule sessions, and manage bookings seamlessly.
+
+#### Technologies Used
+
+- Next.js
+- React
+- Tailwind CSS
+- Node.js
+- Express.js
+- MongoDB
+
+#### Live Demo
+
+https://mediqueue-tau.vercel.app/
 
 ---
 
 ## 👨‍💻 Author
 
-**Arshad Hossain**
+### Mohammad A Hossain
 
 Frontend Developer
 
-GitHub: https://github.com/Arshad-Hossain
+🌐 Portfolio: https://portfolio-arshad-self.vercel.app/
 
-LinkedIn: https://linkedin.com/in/mohammad-arshad-hossain
+💻 GitHub: https://github.com/Arshad-Hossain
+
+🔗 LinkedIn: https://linkedin.com/in/mohammad-arshad-hossain
 
 ---
 
@@ -161,4 +184,4 @@ LinkedIn: https://linkedin.com/in/mohammad-arshad-hossain
 
 This project is licensed under the MIT License.
 
-Feel free to use and customize it for your own portfolio.
+Feel free to fork and customize it for your own portfolio.
