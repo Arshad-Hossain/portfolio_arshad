@@ -14,9 +14,10 @@ export default function Home() {
       <Navbar></Navbar>
       <Hero></Hero>
       <About></About>
-      <Academics></Academics>
+
       <Technologies></Technologies>
       <Projects></Projects>
+      <Academics></Academics>
       <Contacts></Contacts>
       <Footer></Footer>
     </>
