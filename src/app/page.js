@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Academics from "@/components/Aceademics";
 import Contacts from "@/components/Contacts";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar></Navbar>
       <Hero></Hero>
       <About></About>
+      <Academics></Academics>
       <Technologies></Technologies>
       <Projects></Projects>
       <Contacts></Contacts>
