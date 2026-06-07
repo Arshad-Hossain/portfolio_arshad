@@ -96,3 +96,17 @@ body {
     transform: translateY(200%);
   }
 }
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% center;
+  }
+
+  100% {
+    background-position: -200% center;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 6s linear infinite;
+}

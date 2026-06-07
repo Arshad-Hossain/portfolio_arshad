@@ -66,7 +66,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="#"
+              href="#contact"
               className="rounded-full border border-white/10 bg-white/5 p-4 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:border-[#ff7a59] hover:text-[#ff7a59]"
             >
               <FaEnvelope size={20} />

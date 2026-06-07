@@ -8,15 +8,17 @@ export default function Footer() {
       {/* Watermark */}
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
         <h1 className="select-none text-[80px] md:text-[150px] font-black text-white/[0.02]">
-          ARSHAD
+          HOSSAIN
         </h1>
       </div>
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-12">
         <div className="text-center">
-          {/* Logo */}
-          <h2 className="text-3xl font-bold text-white transition duration-300 hover:tracking-wider">
-            Arshad
+          {/* Animated Name */}
+          <h2 className="text-3xl font-bold">
+            <span className="animate-shimmer bg-gradient-to-r from-white via-[#ff7a59] to-white bg-[length:200%_100%] bg-clip-text text-transparent">
+              Mohammad A Hossain
+            </span>
             <span className="text-[#ff7a59]">.</span>
           </h2>
 
@@ -37,7 +39,8 @@ export default function Footer() {
           {/* Bottom */}
           <div className="mt-8 flex flex-col items-center gap-2">
             <p className="text-sm text-slate-500">
-              © {new Date().getFullYear()} Arshad. All rights reserved.
+              © {new Date().getFullYear()} Mohammad A Hossain. All rights
+              reserved.
             </p>
 
             <div className="h-1 w-1 rounded-full bg-[#ff7a59]" />
